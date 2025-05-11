@@ -1,0 +1,17 @@
+# Ignore everything by default
+*
+
+# Allow these directories
+!code/
+!data/
+!results/
+
+# Allow files directly within these directories
+code/*
+data/*
+results/*
+
+# Python cache and bytecode
+__pycache__/
+*.py[cod]
+*$py.class
